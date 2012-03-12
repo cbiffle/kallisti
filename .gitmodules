@@ -1,0 +1,3 @@
+[submodule "ReplicatorG"]
+	path = ReplicatorG
+	url = https://github.com/cbiffle/ReplicatorG.git

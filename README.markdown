@@ -11,6 +11,14 @@ for two reasons:
 2. I figured this information might help other people who own early-model
    Cupcake printers.
 
+Cloning This Repository
+-----------------------
+
+This repository uses git's *submodules* feature to track dependencies.  If you
+do a straight-up `git clone` it will leave the submodules empty.  Instead, run
+
+    git clone --recursive
+
 
 About Kallisti
 --------------
