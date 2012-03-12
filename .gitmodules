@@ -4,3 +4,6 @@
 [submodule "G3Firmware-MB"]
 	path = G3Firmware-MB
 	url = https://github.com/cbiffle/G3Firmware.git
+[submodule "G3Firmware-EC"]
+	path = G3Firmware-EC
+	url = https://github.com/cbiffle/G3Firmware.git
