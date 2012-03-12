@@ -20,6 +20,24 @@ do a straight-up `git clone` it will leave the submodules empty.  Instead, run
     git clone --recursive
 
 
+Using This Repository
+---------------------
+
+This repository is structured as a set of submodules:
+
+* `ReplicatorG` contains the current preferred version of ReplicatorG from my
+  fork.  It has a lot of fixes that haven't yet been merged upstream.
+* `G3Firmware-MB` contains the current preferred firmware for the motherboard.
+  I build the motherboard and EC from different versions, because my motherboard
+  firmware has to be modified to support my 3G5D Shield.
+* `G3Firmware-EC` contains the current preferred firmware for the extruder
+  controller.  This is mostly a stock version for now.
+* `sf_35_profiles` contains my current set of Skeinforge tweaks for my bot.
+  These may or may not work for you.  I normally use these together with the
+  Print-O-Matic feature in ReplicatorG, which introduces changes that are
+  unfortunately difficult to version control.
+
+
 About Kallisti
 --------------
 
