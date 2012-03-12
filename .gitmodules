@@ -1,3 +1,6 @@
 [submodule "ReplicatorG"]
 	path = ReplicatorG
 	url = https://github.com/cbiffle/ReplicatorG.git
+[submodule "G3Firmware-MB"]
+	path = G3Firmware-MB
+	url = https://github.com/cbiffle/G3Firmware.git
